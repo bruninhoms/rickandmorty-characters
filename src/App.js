@@ -28,17 +28,17 @@ class App extends Component {
 
   fetchAPIInformationNext = () => {
     fetch(this.changeAPILinkNext())
-    .then(response => response.json())
-    .then(data => {
-      this.setState({characters: data.results, hasNextPage: data.info.next, hasPrevPage:data.info.prev})
-    })
+      .then(response => response.json())
+      .then(data => {
+        this.setState({characters: data.results, hasNextPage: data.info.next, hasPrevPage:data.info.prev})
+      })
   }
 
   fetchAPIInformationPrev = () => {
     fetch(this.changeAPILinkPrev())
-    .then(response => response.json())
-    .then(data => {
-      this.setState({characters: data.results, hasNextPage: data.info.next, hasPrevPage:data.info.prev})
+      .then(response => response.json())
+      .then(data => {
+        this.setState({characters: data.results, hasNextPage: data.info.next, hasPrevPage:data.info.prev})
     })
   }
 
@@ -60,7 +60,7 @@ class App extends Component {
   }
 
   render() {
-    const { characters, searchField, hasNextPage, hasPrevPage } = this.state;
+    const { characters, hasNextPage, hasPrevPage } = this.state;
 
     return (
       <div className="App">
@@ -69,6 +69,7 @@ class App extends Component {
           placeholder = 'Search characters'
           handleChange={e =>  this.searchByName(e.target.value)}
         />
+
         <CardList characters={characters}/>
         {
           hasPrevPage && (

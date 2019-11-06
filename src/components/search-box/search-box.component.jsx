@@ -1,12 +1,15 @@
 import React from 'react';
+import { DebounceInput } from 'react-debounce-input';
 
 import './search-box.styles.css';
 
 export const SearchBox = ({ placeholder, handleChange }) => (
-    <input 
+    <DebounceInput
         className = 'search'
-        type='search' 
-        placeholder={placeholder}
-        onChange={handleChange}
-        />
+        type='search'
+        placeholder = {placeholder}
+        minLength={2}
+        debounceTimeout={300}
+        onChange={handleChange} 
+    />
 )
