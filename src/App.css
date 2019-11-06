@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+h1 {
+  font-family: 'Yeon Sung';
+  font-size: 72px;
+  color: #000066;
+}
+
+.button {
+  background: #95dada;
+  border-radius: 2px;
+  border: none;
+  color: black;
+  margin: 10px;
+  font-size: 20px;
+  width: 100px;
+  height: 40px;
+}
