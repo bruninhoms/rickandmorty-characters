@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rickandmorty-characters/static/css/main.8979eea7.chunk.css",
+    "main.js": "/rickandmorty-characters/static/js/main.638cae87.chunk.js",
+    "main.js.map": "/rickandmorty-characters/static/js/main.638cae87.chunk.js.map",
+    "runtime-main.js": "/rickandmorty-characters/static/js/runtime-main.14e05224.js",
+    "runtime-main.js.map": "/rickandmorty-characters/static/js/runtime-main.14e05224.js.map",
+    "static/js/2.6273cec0.chunk.js": "/rickandmorty-characters/static/js/2.6273cec0.chunk.js",
+    "static/js/2.6273cec0.chunk.js.map": "/rickandmorty-characters/static/js/2.6273cec0.chunk.js.map",
+    "index.html": "/rickandmorty-characters/index.html",
+    "precache-manifest.ae3f7b7a2fd8e2b76ce8ed4b4a609717.js": "/rickandmorty-characters/precache-manifest.ae3f7b7a2fd8e2b76ce8ed4b4a609717.js",
+    "service-worker.js": "/rickandmorty-characters/service-worker.js",
+    "static/css/main.8979eea7.chunk.css.map": "/rickandmorty-characters/static/css/main.8979eea7.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14e05224.js",
+    "static/js/2.6273cec0.chunk.js",
+    "static/css/main.8979eea7.chunk.css",
+    "static/js/main.638cae87.chunk.js"
+  ]
+}
