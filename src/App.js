@@ -64,7 +64,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Rick and Morty<br />Characters</h1>
+        <h1 className='title'>Rick and Morty<br />Characters</h1>
         <SearchBox
           placeholder = 'Search characters'
           handleChange={e =>  this.searchByName(e.target.value)}
